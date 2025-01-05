@@ -1,15 +1,15 @@
- Business Context: A leading Retail Chains in India provided the Point of Sales data of 37 stores across 7 States for a period of 2 years (Sept, 2021 to Oct, 2023) to define CRM/marketing/Campaign/Sales strategies for the upcoming year
-Data Availability: The client provided data in six tables:
+** Business Context:**A leading Retail Chains in India provided the Point of Sales data of 37 stores across 7 States for a period of 2 years (Sept, 2021 to Oct, 2023) to define CRM/marketing/Campaign/Sales strategies for the upcoming year
+**Data Availability:**The client provided data in six tables:
 a.	Customer table – Containing customer level data consists of 4 columns – customer_id, city, State and Gender
 b.	Stored_info table: Containing store level data consists of 4 columns – store_id, seller_city, State and region
 c.	Products_info table: Containing product level data consists of 9 columns - Product-id, category, product name length and description length, product photos quantity, product dimensions and weight
 d.	Orders table: Containing orders level point of sales data consists of 11 columns - Customer-id (foreign key), order-id, product-id (foreign key), channel, store-id (foreign key), bill date time stamp, quantity, unit cost, MRP, discount and total amount
 e.	Order payment table: Consists of 3 columns - Order-id, payment type and payment value
 f.	Order_reivew_ratings table: Consists of 2 columns - Order-id, customer satisfaction score
-Tools used: Excel, SQL and MS PPT
-Techniques used: Data Cleaning, Exploratory Data Analysis, Trend and Seasonality analysis, Customer Behaviour Analysis, Category Behaviour Analysis, Cross Selling Analysis, Creation of Charts showing results of the analysis, and Insights Generation
+**Tools used:** Excel, SQL and MS PPT
+**Techniques used:** Data Cleaning, Exploratory Data Analysis, Trend and Seasonality analysis, Customer Behaviour Analysis, Category Behaviour Analysis, Cross Selling Analysis, Creation of Charts showing results of the analysis, and Insights Generation
 Types of Charts Used: Line Chart, Column Chart, Bar Chart, Pie Chart, Pareto Chart, table etc.
-Detailed Steps:
+**Detailed Steps:**
 1.	As part of this project, I analyzed 1,12,650 orders provided by the Retail Company alongwith other details of product_id, store_id, bill_date time, cost, MRP and discount, etc.
 2.	Initially, I performed data cleaning steps viz.
 	removal of duplicate store_id from store table (3 duplicate stores removed)
@@ -24,7 +24,7 @@ Detailed Steps:
 6.	Analyzed the top ten products cross-sold together. Also analyzed, top selling categories, products with highest and lowest customer ratings
 7.	Also performed region and State wise analysis for the above analysis
 
-Findings:
+**Findings:**
 1.	Yearly trend shows steady growth from 2020 to 2023
 2.	Quarterly and monthly trend also shows growth over the period except in last 4-5 months and in last quarter of the given period where sales were decreased
 3.	August, 2023 has highest new customers and highest revenue from new customers
@@ -51,13 +51,13 @@ Findings:
 24.	Only, 0.
 25.	07% customers were in the highest segment of customer RFM Segmentation (Revenue, Frequency and monetary)
 
-Insights and recommendations:
+**Insights and recommendations:**
 •	Weekdays sales are around 3 times of the weekend sales. Hence, to increase weekend sales some promotion, offers may be given during the weekends
 •	Female customers are more than two times of male customers. Even retention rate for female customers is slightly higher than that of male. Hence, male customers may be targeted to increase the sales
 •	No. of repeated buyers is only 35 out of total 98,315 customers analyzed. Hence, focus to be given on retention of customers by analyzing customers feedback and giving some offers, promotion for subsequent purchases
 •	Yearend (December) sales and festive season (September-October) sales are low in comparison to the sales in other months, which are usually high priority season for buyers for purchasing. Hence, promotional activities for these seasons can be done to see increase in sales
 
-Challenges:
+**Challenges:**
 •	Incorrect data: 
 	Some order IDs have multiple customer IDs, store IDs or multiple Bill date timestamp that affects the outcome of customer level, store level data analysis and to get the correct trend and seasonality of sales 
 •	Uneven distribution of Data:
