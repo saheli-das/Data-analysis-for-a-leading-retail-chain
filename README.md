@@ -1,6 +1,6 @@
-** Business Context:**A leading Retail Chains in India provided the Point of Sales data of 37 stores across 7 States for a period of 2 years (Sept, 2021 to Oct, 2023) to define CRM/marketing/Campaign/Sales strategies for the upcoming year
+**Business Context:** A leading Retail Chains in India provided the Point of Sales data of 37 stores across 7 States for a period of 2 years (Sept, 2021 to Oct, 2023) to define CRM/marketing/Campaign/Sales strategies for the upcoming year
 
-**Data Availability:**The client provided data in six tables:
+**Data Availability:** The client provided data in six tables:
 a.	Customer table – Containing customer level data consists of 4 columns – customer_id, city, State and Gender
 b.	Stored_info table: Containing store level data consists of 4 columns – store_id, seller_city, State and region
 c.	Products_info table: Containing product level data consists of 9 columns - Product-id, category, product name length and description length, product photos quantity, product dimensions and weight
