@@ -1,4 +1,5 @@
 ** Business Context:**A leading Retail Chains in India provided the Point of Sales data of 37 stores across 7 States for a period of 2 years (Sept, 2021 to Oct, 2023) to define CRM/marketing/Campaign/Sales strategies for the upcoming year
+
 **Data Availability:**The client provided data in six tables:
 a.	Customer table – Containing customer level data consists of 4 columns – customer_id, city, State and Gender
 b.	Stored_info table: Containing store level data consists of 4 columns – store_id, seller_city, State and region
@@ -6,9 +7,12 @@ c.	Products_info table: Containing product level data consists of 9 columns - Pr
 d.	Orders table: Containing orders level point of sales data consists of 11 columns - Customer-id (foreign key), order-id, product-id (foreign key), channel, store-id (foreign key), bill date time stamp, quantity, unit cost, MRP, discount and total amount
 e.	Order payment table: Consists of 3 columns - Order-id, payment type and payment value
 f.	Order_reivew_ratings table: Consists of 2 columns - Order-id, customer satisfaction score
+
 **Tools used:** Excel, SQL and MS PPT
+
 **Techniques used:** Data Cleaning, Exploratory Data Analysis, Trend and Seasonality analysis, Customer Behaviour Analysis, Category Behaviour Analysis, Cross Selling Analysis, Creation of Charts showing results of the analysis, and Insights Generation
 Types of Charts Used: Line Chart, Column Chart, Bar Chart, Pie Chart, Pareto Chart, table etc.
+
 **Detailed Steps:**
 1.	As part of this project, I analyzed 1,12,650 orders provided by the Retail Company alongwith other details of product_id, store_id, bill_date time, cost, MRP and discount, etc.
 2.	Initially, I performed data cleaning steps viz.
