@@ -61,9 +61,4 @@ Types of Charts Used: Line Chart, Column Chart, Bar Chart, Pie Chart, Pareto Cha
 •	No. of repeated buyers is only 35 out of total 98,315 customers analyzed. Hence, focus to be given on retention of customers by analyzing customers feedback and giving some offers, promotion for subsequent purchases
 •	Yearend (December) sales and festive season (September-October) sales are low in comparison to the sales in other months, which are usually high priority season for buyers for purchasing. Hence, promotional activities for these seasons can be done to see increase in sales
 
-**Challenges:**
-•	Incorrect data: 
-	Some order IDs have multiple customer IDs, store IDs or multiple Bill date timestamp that affects the outcome of customer level, store level data analysis and to get the correct trend and seasonality of sales 
-•	Uneven distribution of Data:
-	Sales data provided for analysis are not distributed evenly across the Regions and the States. Such as, South Region (Andhra Pradesh) has highest nos. of records(more than 7 times of the region with second highest records). Data of three States have been given for North Region while for other three Regions, data have been given for only one State for each region. 
-	Hence, analysis of the data from the given data set will not give the correct insights on the sales performance across the region
+
